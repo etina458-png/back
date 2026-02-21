@@ -9,7 +9,8 @@ const PORT = process.env.PORT || 3000;
 
 // ✅ CORS FIRST
 app.use(cors({
-  origin: 'http://127.0.0.1:5500'
+  origin: 'http://127.0.0.1:5500' // local frontend
+  "https://front-bqj0ifyfo-etina458-pngs-projects.vercel.app/"
 }));
 
 // ✅ THEN body parser
