@@ -9,7 +9,8 @@ const PORT = process.env.PORT || 5000;
 
 // ✅ CORS FIRST
 app.use(cors({
-  origin: 'http://127.0.0.1:5500'
+
+  origin: "https://front-gamma-wine.vercel.app"
 }));
 
 // ✅ THEN body parser
