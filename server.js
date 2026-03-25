@@ -5,11 +5,11 @@ import authRoutes from "./routes/auth.routes.js";
 
 const app = express();
 
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 5000;
 
 // ✅ CORS FIRST
 app.use(cors({
-  origin: 'https://front-gamma-wine.vercel.app/'
+  origin: 'http://127.0.0.1:5500'
 }));
 
 // ✅ THEN body parser
